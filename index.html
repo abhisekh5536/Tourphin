@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Tourphin </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon"
+    href="data:image/png;base64,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">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/js" href="script.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+
+  <style>
+  
+
+
+  </style>
+
+</head>
+
+<body>
+
+  <header id="header">
+    <!-- Nav bar -->
+
+    <nav id="nav_bar">
+      <ul>
+        <li id="Tourphin_logo"> TOURPHIN</li>
+        <span id="header_span">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#pop_des">Destinations</a></li>
+          <li><a href="guides.html">Our guides</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="contact_us.html">Contact us</a></li>
+        </span>
+
+
+      </ul>
+    </nav>
+  </header>
+  <section class="explore">
+    <h2>Explore the World with Us</h2>
+    <p>Discover Amazing Destinations and the best tour Guides for your Perfect Trips</p>
+  </section>
+  <div class="join_as_a_guide">
+    <a href="join.html" class="btn">Join as a Tourist Guide</a>
+  </div>
+
+  <main>
+    <section class="hero">
+
+      <div class="carousel-container">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?cs=srgb&dl=pexels-sudipta-mondal-1603650.jpg&fm=jpg"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://t3.ftcdn.net/jpg/04/20/43/36/360_F_420433699_2e6QXvfi6dpSLSpiSCud9pZzZf3aCYI4.jpg"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.pexels.com/photos/2491830/pexels-photo-2491830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </section>
+    <div class="destination_heading">
+      <h1 class=headings id="pop_des">Popular Destinations</h1>
+    </div>
+    <section class="destinations">
+
+
+
+      <div class="destinations">
+        <div class="destination desti0">
+          <img src="https://www.holidify.com/images/cmsuploads/compressed/5621259188_e74d63cb05_b_20180302140149.jpg"
+            alt="Destination 1">
+          <h3>DELHI</h3>
+          <p>A fine tour guide from LAKSHMI TOUR AND TRAVELS will be provided to make your trip Memorable, it consists
+            of Qutub minar, INDIA gate, Humayun tomb, Rastrapati bhawan etc...</p>
+          <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="destination dest1">
+          <img
+            src="https://media.cntraveller.in/wp-content/uploads/2016/10/calangute.jpg?3&w=1060&t=st=1682318101~exp=1682318701~hmac=a7ba337fd70284aa5bc6392feeac84b14ce56aa22607accb9075f18d739d4303"
+            alt="Destination 2">
+          <h4>GOA</h4>
+          <p>Calangute Beach - Largest Beach in North Goa. Baga Beach - Small Beach renowned for Water Sports. Basilica
+            of Bom Jesus - A UNESCO World Heritage Site. Anjuna Beach is situated at a distance of 18 kms from panaji.
+            Arambol Beach - Fisherman Village Attracts Many Tourists. Tito's, Calangute - Ideal for Clubbing in Goa..
+          </p>
+          <a href="#" class="btn">View Details</a>
+        </div>
+        <div class="destination desti2">
+          <img src="http://images.huffingtonpost.com/2016-06-01-1464804974-7108923-taj.JPG" alt="Destination 3">
+          <h5>AGRA</h5>
+          <p>Visit to Tajmahal, Agra fort, Fatehpur Sikri, Itmad-ud-daulah's tomb, Mehtab Bagh by BAJRANG TOUR TRAVELS.
+          </p>
+          <a href="#" class="btn">View Details</a>
+        </div>
+      </div>
+    </section>
+    
+    <div class="packages_heading">
+      <h2 class=headings id="packages">Our Packages</h2>
+    </div>
+
+    <section class="package_container">
+        <div class="packages">
+          <h3>Package 1</h3>
+          <p>We provide you a better tour service in affordable price. </p>
+          <h3 class="price">Rs1000</h3>
+          <a href="book.html" class="btn">Book Now</a>
+        </div>
+        <div class="packages">
+          <h3>Package 2</h3>
+          <p>This package comes under the medium or the average pricing. </p>
+          <h3 class="price">Rs1500</h3>
+          <a href="book.html" class="btn">Book Now</a>
+        </div>
+        <div class="packages">
+          <h3>Package 3</h3>
+          <p>This package is exclusively for the people who are ready to have premium experience in just 5000. </p>
+          <h3 class="price">Rs5000</h3>
+          <a href="book.html" class="btn">Book Now</a>
+        </div>
+    </section>
+    <!-- sustainable_safari -->
+    <div class="head_sustainable">
+      <h2>SUSTAINABLE__SAFARI</h2>
+    </div>
+    <div id="sustain_para">
+      <p>"Plant a Tree, Preserve a Memory"</p>
+    </div>
+<!-- Sustainable safari content  -->
+    <section >
+          <div class="container">
+        <div class="grid">
+                <div class="boxes"><p class="caption"> image1 </p><img src="https://swott.in/wp-content/uploads/2021/12/korattur_lake05.jpeg" alt=""></div>
+                <div class="boxes"><p class="caption"> image2 </p><img src="https://indianexpress.com/wp-content/uploads/2016/07/pmc-759.jpg" alt=""></div>
+                <div class="boxes"><p class="caption"> image3 </p><img src="https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2018/02/16/Photos/Processed/dis-kfwD--621x414@LiveMint.jpg" alt=""></div>
+                <div class="boxes"><p class="caption"> image4 </p><img src="https://nelda.org.in/wp-content/uploads/2020/05/editor_img_2020-05-31_04-21-44_vTQSDodWfjZJx7w2.jpg" alt=""></div>
+                <div class="boxes"><p class="caption"> image5 </p><img src="https://swott.in/wp-content/uploads/2021/12/korattur_lake07-474x324.jpeg" alt=""></div>
+                <div class="boxes"><p class="caption"> image6 </p><img src="https://swott.in/wp-content/uploads/2021/12/tree_plantation3-474x324.jpg" alt=""></div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+    <!-- <script src="script.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+   
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact_us.css">
+  <title>Contact Us - Tour and Travel</title>
+</head>
+
+<body>
+  <header id="header">
+    <!-- Nav bar -->
+
+    <nav id="nav_bar">
+      <ul>
+        <li id="Tourphin_logo"> <a href="index.html">TOURPHIN</a></li>
+        <span id="header_span">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#pop_des">Destinations</a></li>
+          <li><a href="guides.html">Our guides</a></li>
+          <li><a href="index.html#packages">Packages</a></li>
+          <li><a href="#">Contact us</a></li>
+        </span>
+
+        <!-- <li><a href="Guide_reg.html">Join as a guide</a>></a></li> -->
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or need assistance? Feel free to get in touch with us.</p>
+
+    <div class="contact-form">
+      <form action="contact-process.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Tour and Travel</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+/* Global styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Body styles */
+body {
+  background-image: url('https://etimg.etb2bimg.com/photo/88727626.cms');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Nav bar */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+    margin-top: 0px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover {
+    color: coral;
+    text-decoration: none;
+}
+.small-sup {
+  font-size:smaller;
+}
+#Tourphin_logo {
+    font-size:30px ;
+  text-decoration: none;
+}
+#header_span {
+    padding-left: 700px;
+}
+/* Hero section styles */
+.hero {
+  padding: 100px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+/* Form section styles */
+.form {
+  background-color: #fff;
+  padding: 50px;
+  margin: 50px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+  margin-bottom: 30px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form button {
+  background-color: #1E90FF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0b75b7;
+}
